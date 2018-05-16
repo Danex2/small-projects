@@ -1,0 +1,15 @@
+h1 {
+    color: white;
+    font-family: 'Fira Sans Extra Condensed';
+    margin-top: 150px;
+}
+
+html, body {
+    background-color: #3A3A38;
+}
+
+#name {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Fira Sans Extra Condensed';
+}
