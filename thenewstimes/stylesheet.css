@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    position: absolute;
+    margin-top: 50px;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.news-container {
+    height: 850px;
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-content-top {
+    border: 1px solid black;
+    width: 26%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-content-bottom {
+    border: 1px solid black;
+    width: 26%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+    flex-grow: 1;
+}
+
+.right {
+    flex-grow: 2;
+}
+
+.news-titles-inside {
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.news-links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-links {
+    border: 1px solid black;
+    padding: 18px;
+    height: 100%;
+}
+
+.dog-pictures {
+    align-self: center;
+}
+
+.news-links>p {
+    display: inline;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.left>p {
+    padding: 20px;
+}
+
+.pol {
+    background-color: rgb(253, 235, 175);
+}
+
+.tech {
+    background-color: rgb(154, 234, 235);
+}
+
+.loc {
+    background-color: rgb(130, 235, 199);
+}
+
+.op {
+    background-color: rgb(129, 185, 249);
+}
+
+.sp {
+    background-color: rgb(159, 157, 248);
+}
